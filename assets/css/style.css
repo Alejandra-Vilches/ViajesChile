@@ -1,0 +1,55 @@
+/* General Styles*/
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+    scroll-behavior: auto !important;
+}
+
+/* Navbar Styles*/
+.navbar{
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+/* Quienes somos Styles*/
+#Quienessomos{
+  background-color: black;
+}
+
+.fondo-icono{
+  text-align: center;
+}
+
+/* Destacados Styles*/
+#Destacados{
+  background-color: black;
+}
+
+.card-img-top{
+  height: 45%;
+}
+
+/* Contacto Styles*/
+#Contacto{
+  background-color: black;
+}
+
+/* footer Styles*/
+#footer a{
+  color: white;
+  text-decoration: none;
+}
